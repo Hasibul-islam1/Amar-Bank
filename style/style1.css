@@ -1,0 +1,188 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+p{
+    margin: 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.profile-And-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-box{
+    padding: 15px 10px;
+    border: none;
+    border-left: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: lightgrey;
+    position: absolute;
+    right:80px;
+    outline: none;
+    
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+}
+.icon{
+    height: 16px;
+    position: relative;
+    right: 182px;
+    background-color:lightgrey ;
+    padding: 15px 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.side-logo{
+    padding-left: 20px;
+}
+.side-logo-first{
+    color:rgb(136, 24, 240);
+    padding: 10px 0;
+    font-weight: 400;
+}
+.side-logo-secend{
+    color:rgb(136, 24, 240);
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+/*header end */
+.card-section{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.icon-img{
+    width: 65px;
+    height: 65px;
+}
+.card-body{
+   
+    border-radius: 10px;
+   padding: 15px 10px;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.02);
+}
+.card-element{
+    display: flex;
+     justify-content: space-between;
+   align-items: center;
+}
+.card-num span{
+    padding-left: 18px;
+}
+.card-num{
+    margin-top: 15px;
+    color:lightslategray;
+}
+.card-element-p{
+    font-size: 18px;
+    color: rgb(54, 53, 53);
+    padding-bottom: 10px;
+}
+.card-element-last-p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.card-body-color-green{
+    background-color:rgb(167, 249, 167);
+}
+.card-body-color-lightvulat{
+    background-color: rgb(199, 151, 244);
+}
+.card-body-color-lightsteelblue{
+    background-color: lightsteelblue;
+}
+.card-body-color-lightred{
+    background-color: rgb(237, 156, 156);
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+}
+.box-deposit{
+    width: 300px;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.box-deposit-title{
+    font-size: 18px;
+    padding: 10px;
+}
+.box-deposit-input{
+    margin-bottom: 10px;
+    padding:3px 0;
+    width: 75%;
+}
+.box-deposit-button{
+    padding: 10px;
+    background-color:blue;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 35px;
+    width: 75px;
+    border: none;
+  
+}
+.box-deposit-bg{
+    background-color: rgb(226, 233, 202)
+}
+.box-withdraw-bg{
+    background-color: rgb(255, 182, 193)
+}
+.box-gift-bg{
+    background-color: rgb(157, 249, 201)
+}
+.data{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+}
+.title-data{
+    color: rgb(136, 24, 240);
+    padding:15px 10px 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.td-color{
+    background-color: blueviolet;
+}
+table{
+    padding: 0px 20px;
+    border-spacing: 0px;
+}
+table th{
+    text-align: left;
+    padding: 10px;
+    color: #ffffff;
+}
+table tr{
+    padding: 0 10px;
+}
+table tr:nth-child(even){
+    background-color: rgb(231, 231, 231);
+}

@@ -1,0 +1,63 @@
+.logo{
+    width: 200px;
+    height: 100px;
+}
+h4,p{
+    margin: 0;
+}
+body{
+    background-color: #f4f8fa;
+    background-image: radial-gradient(circle farthest-corner at 100% 100%, #e5c2bd, rgba(244, 248, 250, 0) 63%), radial-gradient(circle farthest-corner at 0% 80%, #f3dadc, hsla(0, 0%, 100%, 0) 51%), radial-gradient(circle farthest-corner at 20% 100%, #e38fba, rgba(251, 247, 241, 0) 39%);
+    font-family: sans-serif;
+}
+.card{
+    margin: 0 auto;
+    padding: 36px;
+    background-color: #fff;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.06);
+    
+}
+.title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.title h4{
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+.title p{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+label{
+    font-size:15px;
+    color: #535d66;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+input{
+    width: 100%;
+    height: 46px;
+    border: 1px solid #dde2e7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.02);
+    margin-bottom: 10px;
+}
+button{
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    padding: 9px 32px;
+    border: none;
+    font-weight: 700;}
+.emty{
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+}
